@@ -1,0 +1,443 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Trang-1" id="eFSkh5_HHYC6LCJMh2mj">
+    <mxGraphModel dx="860" dy="439" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <UserObject label="Patient" plantUmlId="cls_3" plantUmlBaseStyle="swimlane;collapsible=0;fontStyle=0;align=center;fontSize=14;fontColor=#000000;startSize=26;spacingLeft=0;fillColor=#F1F1F1;strokeColor=#181818;childLayout=stackLayout;horizontal=1;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;marginBottom=0;stackSpacing=0;marginTop=5.5;" plantUmlBaseValue="Patient" id="IeGAj6kZpYN_8xNgUk19-1">
+          <mxCell parent="1" style="swimlane;collapsible=0;fontStyle=1;align=center;fontSize=12;fontColor=#000000;startSize=26;spacingLeft=0;fillColor=none;strokeColor=#181818;childLayout=stackLayout;horizontal=1;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;marginBottom=0;stackSpacing=0;marginTop=5.5;" vertex="1">
+            <mxGeometry height="153.5" width="175.63" x="274.60000000000014" y="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;font style=&quot;font-size: 12px;&quot;&gt;- patientId: String&lt;/font&gt;" plantUmlId="mb_4" plantUmlBaseStyle="text;html=1;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;fillColor=none;strokeColor=none;fontSize=14;fontColor=#000000;fontStyle=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" plantUmlBaseValue="patientId: String" id="IeGAj6kZpYN_8xNgUk19-2">
+          <mxCell parent="IeGAj6kZpYN_8xNgUk19-1" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;fillColor=none;strokeColor=none;fontSize=14;fontColor=#000000;fontStyle=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1">
+            <mxGeometry height="19" width="175.63" y="31.5" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;font style=&quot;font-size: 12px;&quot;&gt;- fullName: String&lt;/font&gt;" plantUmlId="mb_5" plantUmlBaseStyle="text;html=1;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;fillColor=none;strokeColor=none;fontSize=14;fontColor=#000000;fontStyle=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" plantUmlBaseValue="fullName: String" id="IeGAj6kZpYN_8xNgUk19-3">
+          <mxCell parent="IeGAj6kZpYN_8xNgUk19-1" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;fillColor=none;strokeColor=none;fontSize=14;fontColor=#000000;fontStyle=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1">
+            <mxGeometry height="19" width="175.63" y="50.5" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;font style=&quot;font-size: 12px;&quot;&gt;- phoneNumber: String&lt;/font&gt;" plantUmlId="mb_6" plantUmlBaseStyle="text;html=1;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;fillColor=none;strokeColor=none;fontSize=14;fontColor=#000000;fontStyle=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" plantUmlBaseValue="phone: String" id="IeGAj6kZpYN_8xNgUk19-4">
+          <mxCell parent="IeGAj6kZpYN_8xNgUk19-1" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;fillColor=none;strokeColor=none;fontSize=14;fontColor=#000000;fontStyle=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1">
+            <mxGeometry height="19" width="175.63" y="69.5" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;font style=&quot;font-size: 12px;&quot;&gt;- dateOfBirth: Date&lt;/font&gt;" plantUmlId="mb_7" plantUmlBaseStyle="text;html=1;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;fillColor=none;strokeColor=none;fontSize=14;fontColor=#000000;fontStyle=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" plantUmlBaseValue="dob: Date" id="IeGAj6kZpYN_8xNgUk19-5">
+          <mxCell parent="IeGAj6kZpYN_8xNgUk19-1" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;fillColor=none;strokeColor=none;fontSize=14;fontColor=#000000;fontStyle=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1">
+            <mxGeometry height="19" width="175.63" y="88.5" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;font style=&quot;font-size: 12px;&quot;&gt;- gender: String&lt;/font&gt;" plantUmlId="mb_8" plantUmlBaseStyle="text;html=1;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;fillColor=none;strokeColor=none;fontSize=14;fontColor=#000000;fontStyle=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" plantUmlBaseValue="gender: String" id="IeGAj6kZpYN_8xNgUk19-6">
+          <mxCell parent="IeGAj6kZpYN_8xNgUk19-1" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;fillColor=none;strokeColor=none;fontSize=14;fontColor=#000000;fontStyle=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1">
+            <mxGeometry height="19" width="175.63" y="107.5" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="" plantUmlId="clssep_9" plantUmlBaseStyle="line;strokeWidth=0.5;strokeColor=#181818;fillColor=none;align=left;verticalAlign=middle;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;connectable=0;" plantUmlBaseValue="" id="IeGAj6kZpYN_8xNgUk19-7">
+          <mxCell parent="IeGAj6kZpYN_8xNgUk19-1" style="line;strokeWidth=0.5;strokeColor=#181818;fillColor=none;align=left;verticalAlign=middle;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;connectable=0;" vertex="1">
+            <mxGeometry height="8" width="175.63" y="126.5" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;font style=&quot;font-size: 12px;&quot;&gt;+ getMedicalHistory(): List&lt;/font&gt;" plantUmlId="mb_10" plantUmlBaseStyle="text;html=1;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;fillColor=none;strokeColor=none;fontSize=14;fontColor=#000000;fontStyle=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" plantUmlBaseValue="getMedicalHistory(): List" id="IeGAj6kZpYN_8xNgUk19-8">
+          <mxCell parent="IeGAj6kZpYN_8xNgUk19-1" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;fillColor=none;strokeColor=none;fontSize=14;fontColor=#000000;fontStyle=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1">
+            <mxGeometry height="19" width="175.63" y="134.5" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Appointment" plantUmlId="cls_18" plantUmlBaseStyle="swimlane;collapsible=0;fontStyle=0;align=center;fontSize=14;fontColor=#000000;startSize=26;spacingLeft=0;fillColor=#F1F1F1;strokeColor=#181818;childLayout=stackLayout;horizontal=1;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;marginBottom=0;stackSpacing=0;marginTop=5.5;" plantUmlBaseValue="Appointment" id="IeGAj6kZpYN_8xNgUk19-9">
+          <mxCell parent="1" style="swimlane;collapsible=0;fontStyle=1;align=center;fontSize=12;fontColor=#000000;startSize=26;spacingLeft=0;fillColor=none;strokeColor=#181818;childLayout=stackLayout;horizontal=1;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;marginBottom=0;stackSpacing=0;marginTop=5.5;" vertex="1">
+            <mxGeometry height="171.5" width="217.1" x="587.5" y="71" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;font style=&quot;font-size: 12px;&quot;&gt;- appointmentId: String&lt;/font&gt;" plantUmlId="mb_19" plantUmlBaseStyle="text;html=1;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;fillColor=none;strokeColor=none;fontSize=14;fontColor=#000000;fontStyle=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" plantUmlBaseValue="appointmentId: String" id="IeGAj6kZpYN_8xNgUk19-10">
+          <mxCell parent="IeGAj6kZpYN_8xNgUk19-9" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;fillColor=none;strokeColor=none;fontSize=14;fontColor=#000000;fontStyle=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1">
+            <mxGeometry height="19" width="217.1" y="31.5" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;font style=&quot;font-size: 12px;&quot;&gt;- appointmentDate: Date&lt;/font&gt;" plantUmlId="mb_20" plantUmlBaseStyle="text;html=1;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;fillColor=none;strokeColor=none;fontSize=14;fontColor=#000000;fontStyle=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" plantUmlBaseValue="appointmentDate: Date" id="IeGAj6kZpYN_8xNgUk19-11">
+          <mxCell parent="IeGAj6kZpYN_8xNgUk19-9" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;fillColor=none;strokeColor=none;fontSize=14;fontColor=#000000;fontStyle=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1">
+            <mxGeometry height="19" width="217.1" y="50.5" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;font style=&quot;font-size: 12px;&quot;&gt;- slotTime: String&lt;/font&gt;" plantUmlId="mb_21" plantUmlBaseStyle="text;html=1;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;fillColor=none;strokeColor=none;fontSize=14;fontColor=#000000;fontStyle=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" plantUmlBaseValue="timeSlot: String" id="IeGAj6kZpYN_8xNgUk19-12">
+          <mxCell parent="IeGAj6kZpYN_8xNgUk19-9" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;fillColor=none;strokeColor=none;fontSize=14;fontColor=#000000;fontStyle=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1">
+            <mxGeometry height="19" width="217.1" y="69.5" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;font style=&quot;font-size: 12px;&quot;&gt;- bookingStatus: String&lt;/font&gt;" plantUmlId="mb_22" plantUmlBaseStyle="text;html=1;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;fillColor=none;strokeColor=none;fontSize=14;fontColor=#000000;fontStyle=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" plantUmlBaseValue="status: String" id="IeGAj6kZpYN_8xNgUk19-13">
+          <mxCell parent="IeGAj6kZpYN_8xNgUk19-9" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;fillColor=none;strokeColor=none;fontSize=14;fontColor=#000000;fontStyle=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1">
+            <mxGeometry height="19" width="217.1" y="88.5" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="" plantUmlId="clssep_23" plantUmlBaseStyle="line;strokeWidth=0.5;strokeColor=#181818;fillColor=none;align=left;verticalAlign=middle;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;connectable=0;" plantUmlBaseValue="" id="IeGAj6kZpYN_8xNgUk19-14">
+          <mxCell parent="IeGAj6kZpYN_8xNgUk19-9" style="line;strokeWidth=0.5;strokeColor=#181818;fillColor=none;align=left;verticalAlign=middle;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;connectable=0;" vertex="1">
+            <mxGeometry height="8" width="217.1" y="107.5" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;font style=&quot;font-size: 12px;&quot;&gt;+ cancelAppointment(): boolean&lt;/font&gt;" plantUmlId="mb_24" plantUmlBaseStyle="text;html=1;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;fillColor=none;strokeColor=none;fontSize=14;fontColor=#000000;fontStyle=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" plantUmlBaseValue="cancel(): Boolean" id="IeGAj6kZpYN_8xNgUk19-15">
+          <mxCell parent="IeGAj6kZpYN_8xNgUk19-9" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;fillColor=none;strokeColor=none;fontSize=14;fontColor=#000000;fontStyle=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1">
+            <mxGeometry height="19" width="217.1" y="115.5" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;font style=&quot;font-size: 12px;&quot;&gt;+ confirmAppointment(): boolean&lt;/font&gt;" plantUmlId="mb_25" plantUmlBaseStyle="text;html=1;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;fillColor=none;strokeColor=none;fontSize=14;fontColor=#000000;fontStyle=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" plantUmlBaseValue="confirm(): Boolean" id="IeGAj6kZpYN_8xNgUk19-16">
+          <mxCell parent="IeGAj6kZpYN_8xNgUk19-9" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;fillColor=none;strokeColor=none;fontSize=14;fontColor=#000000;fontStyle=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1">
+            <mxGeometry height="37" width="217.1" y="134.5" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="IeGAj6kZpYN_8xNgUk19-93" edge="1" parent="1" source="IeGAj6kZpYN_8xNgUk19-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" target="IeGAj6kZpYN_8xNgUk19-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="MedicalRecord" plantUmlId="cls_26" plantUmlBaseStyle="swimlane;collapsible=0;fontStyle=0;align=center;fontSize=14;fontColor=#000000;startSize=26;spacingLeft=0;fillColor=#F1F1F1;strokeColor=#181818;childLayout=stackLayout;horizontal=1;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;marginBottom=0;stackSpacing=0;marginTop=5.5;" plantUmlBaseValue="MedicalRecord" id="IeGAj6kZpYN_8xNgUk19-17">
+          <mxCell parent="1" style="swimlane;collapsible=0;fontStyle=1;align=center;fontSize=12;fontColor=#000000;startSize=26;spacingLeft=0;fillColor=none;strokeColor=#181818;childLayout=stackLayout;horizontal=1;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;marginBottom=0;stackSpacing=0;marginTop=5.5;" vertex="1">
+            <mxGeometry height="134.5" width="151.06" x="443.5400000000001" y="336.5" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;font style=&quot;font-size: 12px;&quot;&gt;-&amp;nbsp;recordId: String&lt;/font&gt;" plantUmlId="mb_27" plantUmlBaseStyle="text;html=1;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;fillColor=none;strokeColor=none;fontSize=14;fontColor=#000000;fontStyle=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" plantUmlBaseValue="recordId: String" id="IeGAj6kZpYN_8xNgUk19-18">
+          <mxCell parent="IeGAj6kZpYN_8xNgUk19-17" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;fillColor=none;strokeColor=none;fontSize=14;fontColor=#000000;fontStyle=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1">
+            <mxGeometry height="19" width="151.06" y="31.5" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;font style=&quot;font-size: 12px;&quot;&gt;- diagnosis: String&lt;/font&gt;" plantUmlId="mb_28" plantUmlBaseStyle="text;html=1;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;fillColor=none;strokeColor=none;fontSize=14;fontColor=#000000;fontStyle=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" plantUmlBaseValue="diagnosis: String" id="IeGAj6kZpYN_8xNgUk19-19">
+          <mxCell parent="IeGAj6kZpYN_8xNgUk19-17" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;fillColor=none;strokeColor=none;fontSize=14;fontColor=#000000;fontStyle=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1">
+            <mxGeometry height="19" width="151.06" y="50.5" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;font style=&quot;font-size: 12px;&quot;&gt;- medicalNotes: String&lt;/font&gt;" plantUmlId="mb_29" plantUmlBaseStyle="text;html=1;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;fillColor=none;strokeColor=none;fontSize=14;fontColor=#000000;fontStyle=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" plantUmlBaseValue="notes: String" id="IeGAj6kZpYN_8xNgUk19-20">
+          <mxCell parent="IeGAj6kZpYN_8xNgUk19-17" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;fillColor=none;strokeColor=none;fontSize=14;fontColor=#000000;fontStyle=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1">
+            <mxGeometry height="19" width="151.06" y="69.5" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;font style=&quot;font-size: 12px;&quot;&gt;- createdAt: DateTime&lt;/font&gt;" plantUmlId="mb_30" plantUmlBaseStyle="text;html=1;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;fillColor=none;strokeColor=none;fontSize=14;fontColor=#000000;fontStyle=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" plantUmlBaseValue="createdAt: DateTime" id="IeGAj6kZpYN_8xNgUk19-21">
+          <mxCell parent="IeGAj6kZpYN_8xNgUk19-17" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;fillColor=none;strokeColor=none;fontSize=14;fontColor=#000000;fontStyle=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1">
+            <mxGeometry height="19" width="151.06" y="88.5" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="" plantUmlId="clssep_31" plantUmlBaseStyle="line;strokeWidth=0.5;strokeColor=#181818;fillColor=none;align=left;verticalAlign=middle;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;connectable=0;" plantUmlBaseValue="" id="IeGAj6kZpYN_8xNgUk19-22">
+          <mxCell parent="IeGAj6kZpYN_8xNgUk19-17" style="line;strokeWidth=0.5;strokeColor=#181818;fillColor=none;align=left;verticalAlign=middle;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;connectable=0;" vertex="1">
+            <mxGeometry height="8" width="151.06" y="107.5" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;font style=&quot;font-size: 12px;&quot;&gt;+ addRecordDetail(): void&lt;/font&gt;" plantUmlId="mb_32" plantUmlBaseStyle="text;html=1;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;fillColor=none;strokeColor=none;fontSize=14;fontColor=#000000;fontStyle=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" plantUmlBaseValue="addDetail(): Void" id="IeGAj6kZpYN_8xNgUk19-23">
+          <mxCell parent="IeGAj6kZpYN_8xNgUk19-17" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;fillColor=none;strokeColor=none;fontSize=14;fontColor=#000000;fontStyle=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1">
+            <mxGeometry height="19" width="151.06" y="115.5" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="DentalService" plantUmlId="cls_33" plantUmlBaseStyle="swimlane;collapsible=0;fontStyle=0;align=center;fontSize=14;fontColor=#000000;startSize=26;spacingLeft=0;fillColor=#F1F1F1;strokeColor=#181818;childLayout=stackLayout;horizontal=1;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;marginBottom=0;stackSpacing=0;marginTop=5.5;" plantUmlBaseValue="DentalService" id="IeGAj6kZpYN_8xNgUk19-24">
+          <mxCell parent="1" style="swimlane;collapsible=0;fontStyle=1;align=center;fontSize=12;fontColor=#000000;startSize=26;spacingLeft=0;fillColor=none;strokeColor=#181818;childLayout=stackLayout;horizontal=1;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;marginBottom=0;stackSpacing=0;marginTop=5.5;" vertex="1">
+            <mxGeometry height="107.5" width="146.7" x="70.00000000000011" y="950.0000000000002" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;font style=&quot;font-size: 12px;&quot;&gt;- serviceId: String&lt;/font&gt;" plantUmlId="mb_34" plantUmlBaseStyle="text;html=1;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;fillColor=none;strokeColor=none;fontSize=14;fontColor=#000000;fontStyle=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" plantUmlBaseValue="serviceId: String" id="IeGAj6kZpYN_8xNgUk19-25">
+          <mxCell parent="IeGAj6kZpYN_8xNgUk19-24" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;fillColor=none;strokeColor=none;fontSize=14;fontColor=#000000;fontStyle=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1">
+            <mxGeometry height="19" width="146.7" y="31.5" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;font style=&quot;font-size: 12px;&quot;&gt;- serviceName: String&lt;/font&gt;" plantUmlId="mb_35" plantUmlBaseStyle="text;html=1;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;fillColor=none;strokeColor=none;fontSize=14;fontColor=#000000;fontStyle=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" plantUmlBaseValue="serviceName: String" id="IeGAj6kZpYN_8xNgUk19-26">
+          <mxCell parent="IeGAj6kZpYN_8xNgUk19-24" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;fillColor=none;strokeColor=none;fontSize=14;fontColor=#000000;fontStyle=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1">
+            <mxGeometry height="19" width="146.7" y="50.5" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;font style=&quot;font-size: 12px;&quot;&gt;- price: Double&lt;/font&gt;" plantUmlId="mb_36" plantUmlBaseStyle="text;html=1;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;fillColor=none;strokeColor=none;fontSize=14;fontColor=#000000;fontStyle=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" plantUmlBaseValue="price: Double" id="IeGAj6kZpYN_8xNgUk19-27">
+          <mxCell parent="IeGAj6kZpYN_8xNgUk19-24" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;fillColor=none;strokeColor=none;fontSize=14;fontColor=#000000;fontStyle=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1">
+            <mxGeometry height="19" width="146.7" y="69.5" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;font style=&quot;font-size: 12px;&quot;&gt;- unit: String&lt;/font&gt;" plantUmlId="mb_37" plantUmlBaseStyle="text;html=1;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;fillColor=none;strokeColor=none;fontSize=14;fontColor=#000000;fontStyle=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" plantUmlBaseValue="unit: String" id="IeGAj6kZpYN_8xNgUk19-28">
+          <mxCell parent="IeGAj6kZpYN_8xNgUk19-24" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;fillColor=none;strokeColor=none;fontSize=14;fontColor=#000000;fontStyle=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1">
+            <mxGeometry height="19" width="146.7" y="88.5" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="IeGAj6kZpYN_8xNgUk19-94" edge="1" parent="1" source="IeGAj6kZpYN_8xNgUk19-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" target="IeGAj6kZpYN_8xNgUk19-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Invoice" plantUmlId="cls_39" plantUmlBaseStyle="swimlane;collapsible=0;fontStyle=0;align=center;fontSize=14;fontColor=#000000;startSize=26;spacingLeft=0;fillColor=#F1F1F1;strokeColor=#181818;childLayout=stackLayout;horizontal=1;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;marginBottom=0;stackSpacing=0;marginTop=5.5;" plantUmlBaseValue="Invoice" id="IeGAj6kZpYN_8xNgUk19-30">
+          <mxCell parent="1" style="swimlane;collapsible=0;fontStyle=1;align=center;fontSize=12;fontColor=#000000;startSize=26;spacingLeft=0;fillColor=none;strokeColor=#181818;childLayout=stackLayout;horizontal=1;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;marginBottom=0;stackSpacing=0;marginTop=5.5;" vertex="1">
+            <mxGeometry height="134.5" width="172.49" x="432.8200000000003" y="652.0000000000002" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;font style=&quot;font-size: 12px;&quot;&gt;- invoiceId: String&lt;/font&gt;" plantUmlId="mb_40" plantUmlBaseStyle="text;html=1;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;fillColor=none;strokeColor=none;fontSize=14;fontColor=#000000;fontStyle=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" plantUmlBaseValue="invoiceId: String" id="IeGAj6kZpYN_8xNgUk19-31">
+          <mxCell parent="IeGAj6kZpYN_8xNgUk19-30" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;fillColor=none;strokeColor=none;fontSize=14;fontColor=#000000;fontStyle=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1">
+            <mxGeometry height="19" width="172.49" y="31.5" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;font style=&quot;font-size: 12px;&quot;&gt;- createdAt: DateTime&lt;/font&gt;" plantUmlId="mb_41" plantUmlBaseStyle="text;html=1;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;fillColor=none;strokeColor=none;fontSize=14;fontColor=#000000;fontStyle=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" plantUmlBaseValue="createdAt: DateTime" id="IeGAj6kZpYN_8xNgUk19-32">
+          <mxCell parent="IeGAj6kZpYN_8xNgUk19-30" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;fillColor=none;strokeColor=none;fontSize=14;fontColor=#000000;fontStyle=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1">
+            <mxGeometry height="19" width="172.49" y="50.5" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;font style=&quot;font-size: 12px;&quot;&gt;- totalAmount: Double&lt;/font&gt;" plantUmlId="mb_42" plantUmlBaseStyle="text;html=1;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;fillColor=none;strokeColor=none;fontSize=14;fontColor=#000000;fontStyle=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" plantUmlBaseValue="totalAmount: Double" id="IeGAj6kZpYN_8xNgUk19-33">
+          <mxCell parent="IeGAj6kZpYN_8xNgUk19-30" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;fillColor=none;strokeColor=none;fontSize=14;fontColor=#000000;fontStyle=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1">
+            <mxGeometry height="19" width="172.49" y="69.5" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;font style=&quot;font-size: 12px;&quot;&gt;- paymentStatus: String&lt;/font&gt;" plantUmlId="mb_43" plantUmlBaseStyle="text;html=1;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;fillColor=none;strokeColor=none;fontSize=14;fontColor=#000000;fontStyle=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" plantUmlBaseValue="paymentStatus: String" id="IeGAj6kZpYN_8xNgUk19-34">
+          <mxCell parent="IeGAj6kZpYN_8xNgUk19-30" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;fillColor=none;strokeColor=none;fontSize=14;fontColor=#000000;fontStyle=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1">
+            <mxGeometry height="19" width="172.49" y="88.5" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="" plantUmlId="clssep_44" plantUmlBaseStyle="line;strokeWidth=0.5;strokeColor=#181818;fillColor=none;align=left;verticalAlign=middle;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;connectable=0;" plantUmlBaseValue="" id="IeGAj6kZpYN_8xNgUk19-35">
+          <mxCell parent="IeGAj6kZpYN_8xNgUk19-30" style="line;strokeWidth=0.5;strokeColor=#181818;fillColor=none;align=left;verticalAlign=middle;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;connectable=0;" vertex="1">
+            <mxGeometry height="8" width="172.49" y="107.5" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;font style=&quot;font-size: 12px;&quot;&gt;+ calculateTotal(): Double&lt;/font&gt;" plantUmlId="mb_45" plantUmlBaseStyle="text;html=1;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;fillColor=none;strokeColor=none;fontSize=14;fontColor=#000000;fontStyle=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" plantUmlBaseValue="calculateTotal(): Double" id="IeGAj6kZpYN_8xNgUk19-36">
+          <mxCell parent="IeGAj6kZpYN_8xNgUk19-30" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;fillColor=none;strokeColor=none;fontSize=14;fontColor=#000000;fontStyle=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1">
+            <mxGeometry height="19" width="172.49" y="115.5" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="InvoiceDetail" plantUmlId="cls_46" plantUmlBaseStyle="swimlane;collapsible=0;fontStyle=0;align=center;fontSize=14;fontColor=#000000;startSize=26;spacingLeft=0;fillColor=#F1F1F1;strokeColor=#181818;childLayout=stackLayout;horizontal=1;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;marginBottom=0;stackSpacing=0;marginTop=5.5;" plantUmlBaseValue="InvoiceDetail" id="IeGAj6kZpYN_8xNgUk19-37">
+          <mxCell parent="1" style="swimlane;collapsible=0;fontStyle=1;align=center;fontSize=12;fontColor=#000000;startSize=26;spacingLeft=0;fillColor=none;strokeColor=#181818;childLayout=stackLayout;horizontal=1;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;marginBottom=0;stackSpacing=0;marginTop=5.5;" vertex="1">
+            <mxGeometry height="134.5" width="200.49" x="419.51" y="931.5000000000002" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;font style=&quot;font-size: 12px;&quot;&gt;- detailId: String&lt;/font&gt;" plantUmlId="mb_47" plantUmlBaseStyle="text;html=1;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;fillColor=none;strokeColor=none;fontSize=14;fontColor=#000000;fontStyle=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" plantUmlBaseValue="detailId: String" id="IeGAj6kZpYN_8xNgUk19-38">
+          <mxCell parent="IeGAj6kZpYN_8xNgUk19-37" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;fillColor=none;strokeColor=none;fontSize=14;fontColor=#000000;fontStyle=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1">
+            <mxGeometry height="19" width="200.49" y="31.5" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;font style=&quot;font-size: 12px;&quot;&gt;- quantity: int&lt;/font&gt;" plantUmlId="mb_48" plantUmlBaseStyle="text;html=1;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;fillColor=none;strokeColor=none;fontSize=14;fontColor=#000000;fontStyle=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" plantUmlBaseValue="quantity: Integer" id="IeGAj6kZpYN_8xNgUk19-39">
+          <mxCell parent="IeGAj6kZpYN_8xNgUk19-37" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;fillColor=none;strokeColor=none;fontSize=14;fontColor=#000000;fontStyle=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1">
+            <mxGeometry height="19" width="200.49" y="50.5" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;font style=&quot;font-size: 12px;&quot;&gt;- unitPrice: Double&lt;/font&gt;" plantUmlId="mb_49" plantUmlBaseStyle="text;html=1;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;fillColor=none;strokeColor=none;fontSize=14;fontColor=#000000;fontStyle=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" plantUmlBaseValue="unitPrice: Double" id="IeGAj6kZpYN_8xNgUk19-40">
+          <mxCell parent="IeGAj6kZpYN_8xNgUk19-37" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;fillColor=none;strokeColor=none;fontSize=14;fontColor=#000000;fontStyle=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1">
+            <mxGeometry height="19" width="200.49" y="69.5" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;font style=&quot;font-size: 12px;&quot;&gt;- subTotal: Double&lt;/font&gt;" plantUmlId="mb_50" plantUmlBaseStyle="text;html=1;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;fillColor=none;strokeColor=none;fontSize=14;fontColor=#000000;fontStyle=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" plantUmlBaseValue="lineTotal: Double" id="IeGAj6kZpYN_8xNgUk19-41">
+          <mxCell parent="IeGAj6kZpYN_8xNgUk19-37" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;fillColor=none;strokeColor=none;fontSize=14;fontColor=#000000;fontStyle=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1">
+            <mxGeometry height="19" width="200.49" y="88.5" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="" plantUmlId="clssep_51" plantUmlBaseStyle="line;strokeWidth=0.5;strokeColor=#181818;fillColor=none;align=left;verticalAlign=middle;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;connectable=0;" plantUmlBaseValue="" id="IeGAj6kZpYN_8xNgUk19-42">
+          <mxCell parent="IeGAj6kZpYN_8xNgUk19-37" style="line;strokeWidth=0.5;strokeColor=#181818;fillColor=none;align=left;verticalAlign=middle;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;connectable=0;" vertex="1">
+            <mxGeometry height="8" width="200.49" y="107.5" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;font style=&quot;font-size: 12px;&quot;&gt;+ calculateSubTotal(): Double&lt;/font&gt;" plantUmlId="mb_52" plantUmlBaseStyle="text;html=1;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;fillColor=none;strokeColor=none;fontSize=14;fontColor=#000000;fontStyle=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" plantUmlBaseValue="calculateLineTotal(): Double" id="IeGAj6kZpYN_8xNgUk19-43">
+          <mxCell parent="IeGAj6kZpYN_8xNgUk19-37" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;fillColor=none;strokeColor=none;fontSize=14;fontColor=#000000;fontStyle=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1">
+            <mxGeometry height="19" width="200.49" y="115.5" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="PaymentMethod" plantUmlId="cls_53" plantUmlBaseStyle="swimlane;collapsible=0;fontStyle=0;align=center;fontSize=14;fontColor=#000000;startSize=26;spacingLeft=0;fillColor=#F1F1F1;strokeColor=#181818;childLayout=stackLayout;horizontal=1;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;marginBottom=0;stackSpacing=0;marginTop=5.5;" plantUmlBaseValue="PaymentMethod" id="IeGAj6kZpYN_8xNgUk19-44">
+          <mxCell parent="1" style="swimlane;collapsible=0;fontStyle=1;align=center;fontSize=12;fontColor=#000000;startSize=26;spacingLeft=0;fillColor=none;strokeColor=#181818;childLayout=stackLayout;horizontal=1;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;marginBottom=0;stackSpacing=0;marginTop=5.5;" vertex="1">
+            <mxGeometry height="115.5" width="193.45" x="870.6100000000001" y="796.5000000000002" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;font style=&quot;font-size: 12px;&quot;&gt;- paymentId: String&lt;/font&gt;" plantUmlId="mb_54" plantUmlBaseStyle="text;html=1;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;fillColor=none;strokeColor=none;fontSize=14;fontColor=#000000;fontStyle=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" plantUmlBaseValue="paymentId: String" id="IeGAj6kZpYN_8xNgUk19-45">
+          <mxCell parent="IeGAj6kZpYN_8xNgUk19-44" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;fillColor=none;strokeColor=none;fontSize=14;fontColor=#000000;fontStyle=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1">
+            <mxGeometry height="19" width="193.45" y="31.5" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;font style=&quot;font-size: 12px;&quot;&gt;- amount: Double&lt;/font&gt;" plantUmlId="mb_55" plantUmlBaseStyle="text;html=1;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;fillColor=none;strokeColor=none;fontSize=14;fontColor=#000000;fontStyle=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" plantUmlBaseValue="amount: Double" id="IeGAj6kZpYN_8xNgUk19-46">
+          <mxCell parent="IeGAj6kZpYN_8xNgUk19-44" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;fillColor=none;strokeColor=none;fontSize=14;fontColor=#000000;fontStyle=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1">
+            <mxGeometry height="19" width="193.45" y="50.5" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;font style=&quot;font-size: 12px;&quot;&gt;- transactionDate: DateTime&lt;/font&gt;" plantUmlId="mb_56" plantUmlBaseStyle="text;html=1;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;fillColor=none;strokeColor=none;fontSize=14;fontColor=#000000;fontStyle=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" plantUmlBaseValue="paymentDate: DateTime" id="IeGAj6kZpYN_8xNgUk19-47">
+          <mxCell parent="IeGAj6kZpYN_8xNgUk19-44" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;fillColor=none;strokeColor=none;fontSize=14;fontColor=#000000;fontStyle=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1">
+            <mxGeometry height="19" width="193.45" y="69.5" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="" plantUmlId="clssep_57" plantUmlBaseStyle="line;strokeWidth=0.5;strokeColor=#181818;fillColor=none;align=left;verticalAlign=middle;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;connectable=0;" plantUmlBaseValue="" id="IeGAj6kZpYN_8xNgUk19-48">
+          <mxCell parent="IeGAj6kZpYN_8xNgUk19-44" style="line;strokeWidth=0.5;strokeColor=#181818;fillColor=none;align=left;verticalAlign=middle;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;connectable=0;" vertex="1">
+            <mxGeometry height="8" width="193.45" y="88.5" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;font style=&quot;font-size: 12px;&quot;&gt;- executePayment(): boolean&lt;/font&gt;" plantUmlId="mb_58" plantUmlBaseStyle="text;html=1;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;fillColor=none;strokeColor=none;fontSize=14;fontColor=#000000;fontStyle=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" plantUmlBaseValue="processPayment(): Boolean" id="IeGAj6kZpYN_8xNgUk19-49">
+          <mxCell parent="IeGAj6kZpYN_8xNgUk19-44" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;fillColor=none;strokeColor=none;fontSize=14;fontColor=#000000;fontStyle=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1">
+            <mxGeometry height="19" width="193.45" y="96.5" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="IeGAj6kZpYN_8xNgUk19-91" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=block;endFill=0;" target="IeGAj6kZpYN_8xNgUk19-46">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="816.31" y="856.5" />
+            </Array>
+            <mxPoint x="816.31" y="1030" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="CashPayment" plantUmlId="cls_59" plantUmlBaseStyle="swimlane;collapsible=0;fontStyle=0;align=center;fontSize=14;fontColor=#000000;startSize=26;spacingLeft=0;fillColor=#F1F1F1;strokeColor=#181818;childLayout=stackLayout;horizontal=1;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;marginBottom=0;stackSpacing=0;marginTop=5.5;" plantUmlBaseValue="CashPayment" id="IeGAj6kZpYN_8xNgUk19-50">
+          <mxCell parent="1" style="swimlane;collapsible=0;fontStyle=1;align=center;fontSize=12;fontColor=#000000;startSize=26;spacingLeft=0;fillColor=none;strokeColor=#181818;childLayout=stackLayout;horizontal=1;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;marginBottom=0;stackSpacing=0;marginTop=5.5;" vertex="1">
+            <mxGeometry height="69.5" width="172.04" x="730.0000000000001" y="1030" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;font style=&quot;font-size: 12px;&quot;&gt;- givenAmount: Double&lt;/font&gt;" plantUmlId="mb_60" plantUmlBaseStyle="text;html=1;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;fillColor=none;strokeColor=none;fontSize=14;fontColor=#000000;fontStyle=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" plantUmlBaseValue="cashReceived: Double" id="IeGAj6kZpYN_8xNgUk19-51">
+          <mxCell parent="IeGAj6kZpYN_8xNgUk19-50" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;fillColor=none;strokeColor=none;fontSize=14;fontColor=#000000;fontStyle=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1">
+            <mxGeometry height="19" width="172.04" y="31.5" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;font style=&quot;font-size: 12px;&quot;&gt;- returnedAmount: Double&lt;/font&gt;" plantUmlId="mb_61" plantUmlBaseStyle="text;html=1;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;fillColor=none;strokeColor=none;fontSize=14;fontColor=#000000;fontStyle=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" plantUmlBaseValue="changeAmount: Double" id="IeGAj6kZpYN_8xNgUk19-52">
+          <mxCell parent="IeGAj6kZpYN_8xNgUk19-50" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;fillColor=none;strokeColor=none;fontSize=14;fontColor=#000000;fontStyle=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1">
+            <mxGeometry height="19" width="172.04" y="50.5" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="IeGAj6kZpYN_8xNgUk19-92" edge="1" parent="1" source="IeGAj6kZpYN_8xNgUk19-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=block;endFill=0;" target="IeGAj6kZpYN_8xNgUk19-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="TransferPayment" plantUmlId="cls_63" plantUmlBaseStyle="swimlane;collapsible=0;fontStyle=0;align=center;fontSize=14;fontColor=#000000;startSize=26;spacingLeft=0;fillColor=#F1F1F1;strokeColor=#181818;childLayout=stackLayout;horizontal=1;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;marginBottom=0;stackSpacing=0;marginTop=5.5;" plantUmlBaseValue="TransferPayment" id="IeGAj6kZpYN_8xNgUk19-54">
+          <mxCell parent="1" style="swimlane;collapsible=0;fontStyle=1;align=center;fontSize=12;fontColor=#000000;startSize=26;spacingLeft=0;fillColor=none;strokeColor=#181818;childLayout=stackLayout;horizontal=1;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;marginBottom=0;stackSpacing=0;marginTop=5.5;" vertex="1">
+            <mxGeometry height="69.5" width="172.49" x="1046.01" y="1030" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;font style=&quot;font-size: 12px;&quot;&gt;- transactionNumber: String&lt;/font&gt;" plantUmlId="mb_64" plantUmlBaseStyle="text;html=1;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;fillColor=none;strokeColor=none;fontSize=14;fontColor=#000000;fontStyle=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" plantUmlBaseValue="transactionNo: String" id="IeGAj6kZpYN_8xNgUk19-55">
+          <mxCell parent="IeGAj6kZpYN_8xNgUk19-54" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;fillColor=none;strokeColor=none;fontSize=14;fontColor=#000000;fontStyle=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1">
+            <mxGeometry height="19" width="172.49" y="31.5" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;font style=&quot;font-size: 12px;&quot;&gt;- bankName: String&lt;/font&gt;" plantUmlId="mb_65" plantUmlBaseStyle="text;html=1;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;fillColor=none;strokeColor=none;fontSize=14;fontColor=#000000;fontStyle=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" plantUmlBaseValue="bankName: String" id="IeGAj6kZpYN_8xNgUk19-56">
+          <mxCell parent="IeGAj6kZpYN_8xNgUk19-54" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;fillColor=none;strokeColor=none;fontSize=14;fontColor=#000000;fontStyle=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1">
+            <mxGeometry height="19" width="172.49" y="50.5" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="" plantUmlId="rel_67" plantUmlBaseStyle="endArrow=none;html=1;strokeColor=#181818;fontColor=#000000;fontSize=11;curved=1;rounded=0;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" plantUmlBaseValue="makes &amp;gt;" id="IeGAj6kZpYN_8xNgUk19-58">
+          <mxCell edge="1" parent="1" source="IeGAj6kZpYN_8xNgUk19-1" style="endArrow=none;html=1;strokeColor=#181818;fontColor=#000000;fontSize=11;rounded=0;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;edgeStyle=orthogonalEdgeStyle;" target="IeGAj6kZpYN_8xNgUk19-9">
+            <mxGeometry relative="1" as="geometry">
+              <mxPoint x="460.8700000000001" y="229.5" as="sourcePoint" />
+              <mxPoint x="548.3600000000001" y="325.9200000000001" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="" plantUmlId="rel_70" plantUmlBaseStyle="endArrow=none;html=1;strokeColor=#181818;fontColor=#000000;fontSize=11;curved=1;rounded=0;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" plantUmlBaseValue="assigned to &amp;gt;" id="IeGAj6kZpYN_8xNgUk19-59">
+          <mxCell edge="1" parent="1" source="IeGAj6kZpYN_8xNgUk19-87" style="endArrow=none;html=1;strokeColor=#181818;fontColor=#000000;fontSize=11;rounded=0;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;edgeStyle=orthogonalEdgeStyle;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" target="IeGAj6kZpYN_8xNgUk19-9">
+            <mxGeometry relative="1" as="geometry">
+              <Array as="points">
+                <mxPoint x="940" y="160" />
+                <mxPoint x="757.6" y="160" />
+              </Array>
+              <mxPoint x="934.6000000000001" y="156.5" as="sourcePoint" />
+              <mxPoint x="605.0600000000002" y="325.9200000000001" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="" plantUmlId="rel_73" plantUmlBaseStyle="endArrow=none;html=1;strokeColor=#181818;fontColor=#000000;fontSize=11;curved=1;rounded=0;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" plantUmlBaseValue="results in &amp;gt;" id="IeGAj6kZpYN_8xNgUk19-60">
+          <mxCell edge="1" parent="1" source="IeGAj6kZpYN_8xNgUk19-9" style="endArrow=none;html=1;strokeColor=#181818;fontColor=#000000;fontSize=11;rounded=0;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;edgeStyle=orthogonalEdgeStyle;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="IeGAj6kZpYN_8xNgUk19-20">
+            <mxGeometry relative="1" as="geometry">
+              <Array as="points">
+                <mxPoint x="672.5" y="410" />
+                <mxPoint x="594.6" y="410" />
+              </Array>
+              <mxPoint x="576.7100000000003" y="481.9200000000001" as="sourcePoint" />
+              <mxPoint x="537.1500000000001" y="581.04" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="" plantUmlId="rel_76" plantUmlBaseStyle="endArrow=none;html=1;strokeColor=#181818;fontColor=#000000;fontSize=11;curved=1;rounded=0;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" plantUmlBaseValue="has &amp;gt;" id="IeGAj6kZpYN_8xNgUk19-61">
+          <mxCell edge="1" parent="1" source="IeGAj6kZpYN_8xNgUk19-1" style="endArrow=none;html=1;strokeColor=#181818;fontColor=#000000;fontSize=11;rounded=0;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;edgeStyle=orthogonalEdgeStyle;" target="IeGAj6kZpYN_8xNgUk19-17">
+            <mxGeometry relative="1" as="geometry">
+              <Array as="points">
+                <mxPoint x="362.4" y="410" />
+              </Array>
+              <mxPoint x="402.32000000000016" y="229.5" as="sourcePoint" />
+              <mxPoint x="486.7900000000002" y="581.04" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="" plantUmlId="rel_85" plantUmlBaseStyle="endArrow=none;html=1;strokeColor=#181818;fontColor=#000000;fontSize=11;curved=1;rounded=0;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" plantUmlBaseValue="referenced in &amp;gt;" id="IeGAj6kZpYN_8xNgUk19-64">
+          <mxCell edge="1" parent="1" source="IeGAj6kZpYN_8xNgUk19-24" style="endArrow=none;html=1;strokeColor=#181818;fontColor=#000000;fontSize=11;rounded=0;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;edgeStyle=orthogonalEdgeStyle;" target="IeGAj6kZpYN_8xNgUk19-37">
+            <mxGeometry relative="1" as="geometry">
+              <Array as="points">
+                <mxPoint x="370" y="1003.8" />
+                <mxPoint x="370" y="1003.8" />
+              </Array>
+              <mxPoint x="407.95000000000005" y="960.3400000000001" as="sourcePoint" />
+              <mxPoint x="434.2800000000002" y="1075.9300000000003" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="" plantUmlId="rel_88" plantUmlBaseStyle="endArrow=none;html=1;strokeColor=#181818;fontColor=#000000;fontSize=11;curved=1;rounded=0;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" plantUmlBaseValue="paid via &amp;gt;" id="IeGAj6kZpYN_8xNgUk19-65">
+          <mxCell edge="1" parent="1" source="IeGAj6kZpYN_8xNgUk19-30" style="endArrow=none;html=1;strokeColor=#181818;fontColor=#000000;fontSize=11;rounded=0;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;edgeStyle=orthogonalEdgeStyle;" target="IeGAj6kZpYN_8xNgUk19-44">
+            <mxGeometry relative="1" as="geometry">
+              <mxPoint x="666.2700000000002" y="960.3400000000001" as="sourcePoint" />
+              <mxPoint x="765.45" y="1088.5900000000001" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <mxCell id="IeGAj6kZpYN_8xNgUk19-68" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="0...*" vertex="1">
+          <mxGeometry height="30" width="60" x="400.4900000000001" y="380.5" as="geometry" />
+        </mxCell>
+        <mxCell id="IeGAj6kZpYN_8xNgUk19-69" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="0...*" vertex="1">
+          <mxGeometry height="30" width="60" x="584.2700000000002" y="380.5" as="geometry" />
+        </mxCell>
+        <mxCell id="IeGAj6kZpYN_8xNgUk19-70" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="1" vertex="1">
+          <mxGeometry height="30" width="60" x="664.6000000000001" y="236.5" as="geometry" />
+        </mxCell>
+        <mxCell id="IeGAj6kZpYN_8xNgUk19-71" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="0...*" vertex="1">
+          <mxGeometry height="30" width="60" x="534.6000000000001" y="126.5" as="geometry" />
+        </mxCell>
+        <mxCell id="IeGAj6kZpYN_8xNgUk19-72" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="0...*" vertex="1">
+          <mxGeometry height="30" width="60" x="790.0000000000001" y="136.5" as="geometry" />
+        </mxCell>
+        <mxCell id="IeGAj6kZpYN_8xNgUk19-73" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="1" vertex="1">
+          <mxGeometry height="30" width="60" x="433.59000000000015" y="166.5" as="geometry" />
+        </mxCell>
+        <mxCell id="IeGAj6kZpYN_8xNgUk19-74" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="1" vertex="1">
+          <mxGeometry height="30" width="60" x="474.60000000000014" y="471" as="geometry" />
+        </mxCell>
+        <mxCell id="IeGAj6kZpYN_8xNgUk19-75" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="1" vertex="1">
+          <mxGeometry height="30" width="60" x="500.0000000000002" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="IeGAj6kZpYN_8xNgUk19-76" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="1" vertex="1">
+          <mxGeometry height="30" width="60" x="200.00000000000014" y="980" as="geometry" />
+        </mxCell>
+        <mxCell id="IeGAj6kZpYN_8xNgUk19-77" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="0...*" vertex="1">
+          <mxGeometry height="30" width="60" x="372.8200000000001" y="980" as="geometry" />
+        </mxCell>
+        <mxCell id="IeGAj6kZpYN_8xNgUk19-78" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="1" vertex="1">
+          <mxGeometry height="30" width="60" x="920.0000000000001" y="766.5" as="geometry" />
+        </mxCell>
+        <mxCell id="IeGAj6kZpYN_8xNgUk19-79" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="1" vertex="1">
+          <mxGeometry height="30" width="60" x="590.0000000000001" y="720" as="geometry" />
+        </mxCell>
+        <mxCell id="IeGAj6kZpYN_8xNgUk19-80" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="1...*" vertex="1">
+          <mxGeometry height="30" width="60" x="474.60000000000025" y="901.5" as="geometry" />
+        </mxCell>
+        <mxCell id="IeGAj6kZpYN_8xNgUk19-81" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="1" vertex="1">
+          <mxGeometry height="30" width="60" x="480.0000000000002" y="786.5" as="geometry" />
+        </mxCell>
+        <mxCell id="IeGAj6kZpYN_8xNgUk19-82" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="1" vertex="1">
+          <mxGeometry height="30" width="60" x="320.0000000000001" y="236.5" as="geometry" />
+        </mxCell>
+        <mxCell id="IeGAj6kZpYN_8xNgUk19-83" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="1" vertex="1">
+          <mxGeometry height="30" width="60" x="940.0000000000001" y="136.5" as="geometry" />
+        </mxCell>
+        <UserObject label="Dentist" plantUmlId="cls_11" plantUmlBaseStyle="swimlane;collapsible=0;fontStyle=0;align=center;fontSize=14;fontColor=#000000;startSize=26;spacingLeft=0;fillColor=#F1F1F1;strokeColor=#181818;childLayout=stackLayout;horizontal=1;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;marginBottom=0;stackSpacing=0;marginTop=5.5;" plantUmlBaseValue="Dentist" id="IeGAj6kZpYN_8xNgUk19-84">
+          <mxCell parent="1" style="swimlane;collapsible=0;fontStyle=1;align=center;fontSize=12;fontColor=#000000;startSize=26;spacingLeft=0;fillColor=none;strokeColor=#181818;childLayout=stackLayout;horizontal=1;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;marginBottom=0;stackSpacing=0;marginTop=5.5;" vertex="1">
+            <mxGeometry height="134.5" width="151.06" x="980" y="84.25" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;font style=&quot;font-size: 12px;&quot;&gt;- dentistId: String&lt;/font&gt;" plantUmlId="mb_12" plantUmlBaseStyle="text;html=1;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;fillColor=none;strokeColor=none;fontSize=14;fontColor=#000000;fontStyle=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" plantUmlBaseValue="dentistId: String" id="IeGAj6kZpYN_8xNgUk19-85">
+          <mxCell parent="IeGAj6kZpYN_8xNgUk19-84" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;fillColor=none;strokeColor=none;fontSize=14;fontColor=#000000;fontStyle=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1">
+            <mxGeometry height="19" width="151.06" y="31.5" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;font style=&quot;font-size: 12px;&quot;&gt;- fullName: String&lt;/font&gt;" plantUmlId="mb_13" plantUmlBaseStyle="text;html=1;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;fillColor=none;strokeColor=none;fontSize=14;fontColor=#000000;fontStyle=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" plantUmlBaseValue="fullName: String" id="IeGAj6kZpYN_8xNgUk19-86">
+          <mxCell parent="IeGAj6kZpYN_8xNgUk19-84" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;fillColor=none;strokeColor=none;fontSize=14;fontColor=#000000;fontStyle=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1">
+            <mxGeometry height="19" width="151.06" y="50.5" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;font style=&quot;font-size: 12px;&quot;&gt;- phoneNumber: String&lt;/font&gt;" plantUmlId="mb_14" plantUmlBaseStyle="text;html=1;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;fillColor=none;strokeColor=none;fontSize=14;fontColor=#000000;fontStyle=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" plantUmlBaseValue="phone: String" id="IeGAj6kZpYN_8xNgUk19-87">
+          <mxCell parent="IeGAj6kZpYN_8xNgUk19-84" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;fillColor=none;strokeColor=none;fontSize=14;fontColor=#000000;fontStyle=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1">
+            <mxGeometry height="19" width="151.06" y="69.5" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;font style=&quot;font-size: 12px;&quot;&gt;- specialty: String&lt;/font&gt;" plantUmlId="mb_15" plantUmlBaseStyle="text;html=1;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;fillColor=none;strokeColor=none;fontSize=14;fontColor=#000000;fontStyle=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" plantUmlBaseValue="specialization: String" id="IeGAj6kZpYN_8xNgUk19-88">
+          <mxCell parent="IeGAj6kZpYN_8xNgUk19-84" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;fillColor=none;strokeColor=none;fontSize=14;fontColor=#000000;fontStyle=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1">
+            <mxGeometry height="19" width="151.06" y="88.5" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="" plantUmlId="clssep_16" plantUmlBaseStyle="line;strokeWidth=0.5;strokeColor=#181818;fillColor=none;align=left;verticalAlign=middle;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;connectable=0;" plantUmlBaseValue="" id="IeGAj6kZpYN_8xNgUk19-89">
+          <mxCell parent="IeGAj6kZpYN_8xNgUk19-84" style="line;strokeWidth=0.5;strokeColor=#181818;fillColor=none;align=left;verticalAlign=middle;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;connectable=0;" vertex="1">
+            <mxGeometry height="8" width="151.06" y="107.5" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;font style=&quot;font-size: 12px;&quot;&gt;+ getSchedule(): List&lt;/font&gt;" plantUmlId="mb_17" plantUmlBaseStyle="text;html=1;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;fillColor=none;strokeColor=none;fontSize=14;fontColor=#000000;fontStyle=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" plantUmlBaseValue="getSchedule(): List" id="IeGAj6kZpYN_8xNgUk19-90">
+          <mxCell parent="IeGAj6kZpYN_8xNgUk19-84" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;fillColor=none;strokeColor=none;fontSize=14;fontColor=#000000;fontStyle=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1">
+            <mxGeometry height="19" width="151.06" y="115.5" as="geometry" />
+          </mxCell>
+        </UserObject>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

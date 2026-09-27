@@ -1,0 +1,102 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Trang-1" id="IxNrK_C4_FP7moQ-wmb6">
+    <mxGraphModel dx="860" dy="439" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="FBaLqm4gMkYEJsxYOycx-2" edge="1" parent="1" source="FBaLqm4gMkYEJsxYOycx-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="FBaLqm4gMkYEJsxYOycx-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="270" y="75" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FBaLqm4gMkYEJsxYOycx-1" parent="1" style="ellipse;fillColor=strokeColor;html=1;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="80" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FBaLqm4gMkYEJsxYOycx-4" edge="1" parent="1" source="FBaLqm4gMkYEJsxYOycx-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="FBaLqm4gMkYEJsxYOycx-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="75" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FBaLqm4gMkYEJsxYOycx-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Kiểm tra lịch trống của Nha sĩ" vertex="1">
+          <mxGeometry height="60" width="120" x="210" y="45" as="geometry" />
+        </mxCell>
+        <mxCell id="FBaLqm4gMkYEJsxYOycx-6" edge="1" parent="1" source="FBaLqm4gMkYEJsxYOycx-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="FBaLqm4gMkYEJsxYOycx-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="484" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FBaLqm4gMkYEJsxYOycx-8" edge="1" parent="1" source="FBaLqm4gMkYEJsxYOycx-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="FBaLqm4gMkYEJsxYOycx-7" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FBaLqm4gMkYEJsxYOycx-10" edge="1" parent="1" source="FBaLqm4gMkYEJsxYOycx-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="FBaLqm4gMkYEJsxYOycx-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="750" y="195" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FBaLqm4gMkYEJsxYOycx-5" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;" value="Còn khung giờ trống?" vertex="1">
+          <mxGeometry height="85" width="140" x="414" y="32.5" as="geometry" />
+        </mxCell>
+        <mxCell id="FBaLqm4gMkYEJsxYOycx-16" edge="1" parent="1" source="FBaLqm4gMkYEJsxYOycx-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="FBaLqm4gMkYEJsxYOycx-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="640" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FBaLqm4gMkYEJsxYOycx-20" edge="1" parent="1" source="FBaLqm4gMkYEJsxYOycx-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="FBaLqm4gMkYEJsxYOycx-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FBaLqm4gMkYEJsxYOycx-22" edge="1" parent="1" source="FBaLqm4gMkYEJsxYOycx-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="FBaLqm4gMkYEJsxYOycx-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="650" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FBaLqm4gMkYEJsxYOycx-7" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;" value="Bệnh nhân đã có hồ sơ?" vertex="1">
+          <mxGeometry height="110" width="126" x="421" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="FBaLqm4gMkYEJsxYOycx-9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Có" vertex="1">
+          <mxGeometry height="30" width="60" x="470" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="FBaLqm4gMkYEJsxYOycx-29" edge="1" parent="1" source="FBaLqm4gMkYEJsxYOycx-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="FBaLqm4gMkYEJsxYOycx-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="910" y="230" />
+              <mxPoint x="910" y="25" />
+              <mxPoint x="270" y="25" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FBaLqm4gMkYEJsxYOycx-12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Đề xuất khung giờ khác" vertex="1">
+          <mxGeometry height="60" width="120" x="690" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="FBaLqm4gMkYEJsxYOycx-14" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Có" vertex="1">
+          <mxGeometry height="30" width="60" x="280" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="FBaLqm4gMkYEJsxYOycx-24" edge="1" parent="1" source="FBaLqm4gMkYEJsxYOycx-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="FBaLqm4gMkYEJsxYOycx-25">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="300" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FBaLqm4gMkYEJsxYOycx-15" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Gửi xác nhận và SMS nhắc hẹn" vertex="1">
+          <mxGeometry height="60" width="120" x="240" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="FBaLqm4gMkYEJsxYOycx-21" edge="1" parent="1" source="FBaLqm4gMkYEJsxYOycx-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" target="FBaLqm4gMkYEJsxYOycx-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FBaLqm4gMkYEJsxYOycx-17" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Tạo lịch hẹn mới (Chờ xác nhận)" vertex="1">
+          <mxGeometry height="60" width="120" x="424" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="FBaLqm4gMkYEJsxYOycx-18" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Không" vertex="1">
+          <mxGeometry height="30" width="60" x="700" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="FBaLqm4gMkYEJsxYOycx-19" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Không" vertex="1">
+          <mxGeometry height="30" width="60" x="480" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="FBaLqm4gMkYEJsxYOycx-23" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Đăng ký hồ sơ bệnh nhân" vertex="1">
+          <mxGeometry height="60" width="120" x="590" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="FBaLqm4gMkYEJsxYOycx-25" parent="1" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="285" y="515" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

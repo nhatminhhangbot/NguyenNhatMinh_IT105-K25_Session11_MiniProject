@@ -1,0 +1,191 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Trang-1" id="Kkq6SqAZ9YjdJQ4YI2rc">
+    <mxGraphModel dx="860" dy="439" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Ex6_cKC-817vCAKTVK5c-1" edge="1" parent="1" source="Ex6_cKC-817vCAKTVK5c-2" style="edgeStyle=sequenceEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;libavoidRouting=0;curved=0;endArrow=block;endFill=1;" target="Ex6_cKC-817vCAKTVK5c-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="312.25" y="110" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ex6_cKC-817vCAKTVK5c-2" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" value="" vertex="1">
+          <mxGeometry height="580" width="20" x="170" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ex6_cKC-817vCAKTVK5c-33" parent="Ex6_cKC-817vCAKTVK5c-2" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="480" width="10" x="5" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Ex6_cKC-817vCAKTVK5c-3" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="Database" vertex="1">
+          <mxGeometry height="580" width="100" x="1050" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ex6_cKC-817vCAKTVK5c-4" parent="Ex6_cKC-817vCAKTVK5c-3" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="378" width="10" x="45" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Ex6_cKC-817vCAKTVK5c-5" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="Giao diện đặt lịch" vertex="1">
+          <mxGeometry height="580" width="100" x="400" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ex6_cKC-817vCAKTVK5c-6" parent="Ex6_cKC-817vCAKTVK5c-5" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="470" width="10" x="45" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Ex6_cKC-817vCAKTVK5c-7" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="Service" vertex="1">
+          <mxGeometry height="580" width="126.45" x="710" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ex6_cKC-817vCAKTVK5c-8" parent="Ex6_cKC-817vCAKTVK5c-7" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="456.8" width="10" x="58.22" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Ex6_cKC-817vCAKTVK5c-34" parent="Ex6_cKC-817vCAKTVK5c-7" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="40" width="10" x="68.22000000000003" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Ex6_cKC-817vCAKTVK5c-35" edge="1" parent="Ex6_cKC-817vCAKTVK5c-7" style="html=1;align=left;spacingLeft=2;endArrow=block;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;" target="Ex6_cKC-817vCAKTVK5c-34" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Kiểm tra lịch trống&lt;/font&gt;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="103.22000000000003" y="100" />
+              <mxPoint x="103.22000000000003" y="130" />
+            </Array>
+            <mxPoint x="70" y="100" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ex6_cKC-817vCAKTVK5c-9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Đặt lịch" vertex="1">
+          <mxGeometry height="30" width="100" x="260" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Ex6_cKC-817vCAKTVK5c-10" edge="1" parent="1" source="Ex6_cKC-817vCAKTVK5c-6" style="edgeStyle=sequenceEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;libavoidRouting=0;curved=0;endArrow=block;endFill=1;" target="Ex6_cKC-817vCAKTVK5c-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="690" y="130" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ex6_cKC-817vCAKTVK5c-11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Gửi yêu cầu đặt lịch" vertex="1">
+          <mxGeometry height="30" width="148.24" x="540" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Ex6_cKC-817vCAKTVK5c-12" edge="1" parent="1" source="Ex6_cKC-817vCAKTVK5c-8" style="edgeStyle=sequenceEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;libavoidRouting=0;curved=0;endArrow=block;endFill=1;" target="Ex6_cKC-817vCAKTVK5c-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="936.6100000000001" y="250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ex6_cKC-817vCAKTVK5c-13" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Truy vấn thông tin lịch và xác nhận" vertex="1">
+          <mxGeometry height="30" width="170" x="858.12" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="Ex6_cKC-817vCAKTVK5c-14" edge="1" parent="1" source="Ex6_cKC-817vCAKTVK5c-4" style="edgeStyle=sequenceEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;libavoidRouting=0;curved=0;endArrow=block;endFill=0;dashed=1;" target="Ex6_cKC-817vCAKTVK5c-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="840" y="310" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ex6_cKC-817vCAKTVK5c-15" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Trả bản ghi" vertex="1">
+          <mxGeometry height="30" width="114.39" x="886" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="Ex6_cKC-817vCAKTVK5c-16" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" value="alt" vertex="1">
+          <mxGeometry height="360" width="1070" x="90" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="Ex6_cKC-817vCAKTVK5c-17" edge="1" parent="1" source="Ex6_cKC-817vCAKTVK5c-8" style="edgeStyle=sequenceEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;libavoidRouting=0;curved=0;endArrow=block;endFill=0;dashed=1;" target="Ex6_cKC-817vCAKTVK5c-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="611.6100000000001" y="320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ex6_cKC-817vCAKTVK5c-18" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Trả về trạng thái còn trống" vertex="1">
+          <mxGeometry height="30" width="140" x="544.12" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="Ex6_cKC-817vCAKTVK5c-19" edge="1" parent="1" source="Ex6_cKC-817vCAKTVK5c-6" style="edgeStyle=sequenceEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;libavoidRouting=0;curved=0;endArrow=block;endFill=1;" target="Ex6_cKC-817vCAKTVK5c-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="600" y="340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ex6_cKC-817vCAKTVK5c-20" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Tạo lịch hẹn" vertex="1">
+          <mxGeometry height="30" width="100" x="564.12" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="Ex6_cKC-817vCAKTVK5c-21" edge="1" parent="1" source="Ex6_cKC-817vCAKTVK5c-8" style="edgeStyle=sequenceEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;libavoidRouting=0;curved=0;endArrow=block;endFill=1;" target="Ex6_cKC-817vCAKTVK5c-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1040" y="350" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ex6_cKC-817vCAKTVK5c-22" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Thêm lịch hẹn" vertex="1">
+          <mxGeometry height="30" width="82.99" x="901.63" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="Ex6_cKC-817vCAKTVK5c-23" edge="1" parent="1" source="Ex6_cKC-817vCAKTVK5c-4" style="edgeStyle=sequenceEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;libavoidRouting=0;curved=0;endArrow=block;endFill=0;dashed=1;" target="Ex6_cKC-817vCAKTVK5c-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="936.6100000000001" y="430" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ex6_cKC-817vCAKTVK5c-24" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Xác nhận lịch hẹn" vertex="1">
+          <mxGeometry height="30" width="148.24" x="869" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="Ex6_cKC-817vCAKTVK5c-25" edge="1" parent="1" source="Ex6_cKC-817vCAKTVK5c-8" style="edgeStyle=sequenceEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;libavoidRouting=0;curved=0;endArrow=block;endFill=0;dashed=1;" target="Ex6_cKC-817vCAKTVK5c-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="610" y="440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ex6_cKC-817vCAKTVK5c-26" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Trả về trạng thái thành công" vertex="1">
+          <mxGeometry height="30" width="180" x="524.12" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="Ex6_cKC-817vCAKTVK5c-27" parent="1" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="1070" x="90" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="Ex6_cKC-817vCAKTVK5c-28" edge="1" parent="1" source="Ex6_cKC-817vCAKTVK5c-8" style="edgeStyle=sequenceEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;libavoidRouting=0;curved=0;endArrow=block;endFill=0;dashed=1;" target="Ex6_cKC-817vCAKTVK5c-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="611.6100000000001" y="550" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ex6_cKC-817vCAKTVK5c-29" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Trả về trạng thái hết lịch trống" vertex="1">
+          <mxGeometry height="30" width="124.12" x="552.06" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="Ex6_cKC-817vCAKTVK5c-30" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Còn lịch trống" vertex="1">
+          <mxGeometry height="30" width="60" x="100" y="355" as="geometry" />
+        </mxCell>
+        <mxCell id="Ex6_cKC-817vCAKTVK5c-31" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Đã hết lịch trống" vertex="1">
+          <mxGeometry height="30" width="60" x="100" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="Ex6_cKC-817vCAKTVK5c-32" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Bệnh nhân" vertex="1">
+          <mxGeometry height="30" width="82.99" x="138.51" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="Ex6_cKC-817vCAKTVK5c-39" edge="1" parent="1" source="Ex6_cKC-817vCAKTVK5c-6" style="edgeStyle=sequenceEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;libavoidRouting=0;curved=0;endArrow=block;endFill=0;dashed=1;" target="Ex6_cKC-817vCAKTVK5c-33">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="180" y="330" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ex6_cKC-817vCAKTVK5c-40" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Hiển thị thông báo còn lịch trống" vertex="1">
+          <mxGeometry height="30" width="124.12" x="247.94" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="Ex6_cKC-817vCAKTVK5c-41" edge="1" parent="1" source="Ex6_cKC-817vCAKTVK5c-6" style="edgeStyle=sequenceEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;libavoidRouting=0;curved=0;endArrow=block;endFill=0;dashed=1;" target="Ex6_cKC-817vCAKTVK5c-33">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="180" y="450" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ex6_cKC-817vCAKTVK5c-42" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Hiển thị thông báo đặt lịch thành công" vertex="1">
+          <mxGeometry height="30" width="148.24" x="235.88" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="Ex6_cKC-817vCAKTVK5c-43" edge="1" parent="1" source="Ex6_cKC-817vCAKTVK5c-6" style="edgeStyle=sequenceEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;libavoidRouting=0;curved=0;endArrow=block;endFill=0;dashed=1;" target="Ex6_cKC-817vCAKTVK5c-33">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="180" y="560" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ex6_cKC-817vCAKTVK5c-44" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Hiển thị thông báo hết lịch trống" vertex="1">
+          <mxGeometry height="30" width="180" x="221.5" y="530" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
